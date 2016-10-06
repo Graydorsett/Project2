@@ -1,0 +1,93 @@
+font-family: 'Open Sans', sans-serif;
+font-family: 'Arvo', serif;
+
+@font-face {
+    font-family: freight;
+    src: url(assets/freight.otf);
+}
+
+/*Slider*/
+
+#out-of-the-box-demo {
+}
+
+
+.sy-caption {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    
+}
+
+.sy-box {
+    max-height: 800px;
+}
+
+img {
+    max-height: 700px;
+}
+
+/*HTML Styles*/
+body {
+    background-color: #eac784;
+}
+
+
+#header {
+    background-color: #0b421a;
+    text-align: center;
+    font-family: "freight", sans-serif;
+    color:#fffcfc;
+    width: auto;
+    letter-spacing: 4px;
+}
+
+
+#quizHeader {
+    text-align: center;
+    font-family: "freight", sans-serif;
+    letter-spacing: 1px;
+    background-color: #eac784;
+    margin-top: 7px;
+    padding-top: .1px;
+    padding-bottom: 10px;
+}
+
+
+
+.footer {
+    background-color: #362415;
+    padding: 20px;
+    color: white;
+}
+
+.footer a {
+    color: white;
+}
+
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*Media Screen Sizes*/
+/*
+@media only screen and (max-width: 600px) {
+    .sy-caption {
+    font-family: "Open Sans", sans-serif;
+    font-size: 11px;
+    
+    }
+*/
+}
